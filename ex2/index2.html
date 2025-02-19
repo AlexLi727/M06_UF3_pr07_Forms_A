@@ -5,24 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src = "Alabay.js" defer></script>
+    <link rel = "stylesheet" href = "index2.css">
 </head>
 <body>
-    <form name = "formulario">
+    <form name = "formulario" novalidate>
         Entre 3 y 5 letras <input type = "text" name = "texto">
         <div></div>
+
         Formato de email valido <input type = "email" name = "email">
         <div></div>
+
         Checkbox
         <input type = "checkbox" id = "check1" name = "check" value = "check1">
         <input type = "checkbox" id = "check2" name = "check" value = "check2">
         <input type = "checkbox" id = "check3" name = "check" value = "check3">
+        <div id = "validatecheck"></div>
+
+        Select
+        <select name = "select" id = "select">
+            <option value = "1">1</option>
+            <option value = "2">2</option>
+            <option value = "3">3</option>
+        </select>
         <div></div>
 
-        <select name = "a" id = "a">
-            <option value = "a">a</option>
-            <option value = "b">b</option>
-            <option value = "c">c</option>
-        </select>
         <input type = "submit" value = "comprobar">
     </form>
 </body>
